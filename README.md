@@ -8,3 +8,5 @@
 
 
 将应用注册到eureka server集群上（1.4）
+
+进行用户认证后注册到eureka server（1.5）
