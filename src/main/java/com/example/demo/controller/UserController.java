@@ -20,11 +20,6 @@ public class UserController {
     public User findById(@PathVariable Long id){
         User user=new User();
         user=this.userRepository.findOne(id);
-        user.setId(1L);
-        user.setUsername("account1");
-        user.setName("zhangsan");
-        user.setAge(20);
-        user.setBalance(new BigDecimal(280.00));
         return user;
     }
 }
